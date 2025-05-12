@@ -1,4 +1,6 @@
-that allows IT admins to simulate phishing attacks, track responses, and educate users through built-in training modules.
+# Phishing Simulator
+
+A desktop application that allows IT admins to simulate phishing attacks, track responses, and educate users through built-in training modules.
 
 ## Stack
 - Frontend: React
