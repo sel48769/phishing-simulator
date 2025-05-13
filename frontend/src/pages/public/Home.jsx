@@ -1,6 +1,6 @@
 import './Landing.css';
-import logo from '../../assets/logo.webp';     // Add your logo image here
-import banner from '../../assets/banner.webp'; // Add your banner image here
+import logo from '../../assets/logo.webp';      // <-- make sure you add your logo here
+import banner from '../../assets/banner.webp';  // <-- and your banner here
 
 export default function Home() {
   return (

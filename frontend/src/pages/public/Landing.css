@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@500&display=swap');
+
+.landing-container {
+  background-color: #4a6f8b;
+  color: white;
+  font-family: 'Inknut Antiqua', serif;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2c38;
+  padding: 10px 20px;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-buttons button {
+  margin-left: 10px;
+  background: none;
+  color: white;
+  border: 1px solid white;
+  padding: .05px 12px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-family: inherit;
+}
+
+.nav-buttons button:hover {
+  background-color: rgb(211, 213, 217);
+  color: #202d39;
+}
+
+.banner-section {
+  position: relative;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(47, 68, 88, 0.85);
+  padding: 25px;
+  border: 1px solid white;
+  width: 60%;
+  font-size: 16px;
+}
+
+.features-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.feature-box {
+  background-color: #1c2a35;
+  padding: 40px 20px;
+  width: 30%;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.feature-box h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.feature-box:hover h2 {
+  opacity: 0;
+}
+
+.hover-text {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.feature-box:hover .hover-text {
+  opacity: 1;
+}
